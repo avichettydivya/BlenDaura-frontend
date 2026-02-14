@@ -1,0 +1,46 @@
+.app-navbar a {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.app-navbar a:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+.cart-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: bold;
+  min-width: 18px;
+  height: 18px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+
+
+.nav-link svg {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover svg {
+  transform: scale(1.12);
+  color: #f2f0e9;
+}
